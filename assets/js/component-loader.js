@@ -1,8 +1,6 @@
 async function loadComponent(url,target){
 
-
 try{
-
 
 const response =
 await fetch(url);
@@ -24,12 +22,15 @@ await response.text();
 target.innerHTML = html;
 
 
+return true;
+
 
 }catch(error){
 
 console.error(error);
 
-}
+return false;
 
+}
 
 }
