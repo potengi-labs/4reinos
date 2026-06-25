@@ -1,66 +1,23 @@
 const mapPoints = [
-
-
 {
-id:"COM_M001_E01",
+
+id:"COM_M001",
 
 nome:"Praça da Expressão",
 
 x:"22%",
+
 y:"82%",
 
-icone:"💬",
 
 acao:()=>{
 
-loadScene("COM_M001_E01");
+window.location.href =
+"missoes/com_m001.html";
 
 }
 
 },
-
-
-
-{
-id:"COM_M001_E02",
-
-nome:"Teatro das Histórias",
-
-x:"34%",
-y:"70%",
-
-icone:"🎭",
-
-acao:()=>{
-
-loadScene("COM_M001_E02");
-
-}
-
-},
-
-
-
-{
-id:"BIO_M002",
-
-nome:"Templo do Equilíbrio",
-
-x:"70%",
-y:"90%",
-
-icone:"🏛️",
-
-acao:()=>{
-
-loadScene("BIO_M002");
-
-}
-
-}
-
-
-];
 
 
 
