@@ -1,0 +1,23 @@
+:root{
+
+--terapeutico:#4da3ff;
+--ambiental:#56d66b;
+--comunicacional:#b27cff;
+--biologico:#ffcf4d;
+
+}
+
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+body{
+
+font-family:Inter, sans-serif;
+overflow:hidden;
+
+}
