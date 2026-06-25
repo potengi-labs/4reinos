@@ -21,7 +21,7 @@ const html =
 await response.text();
 
 
-target.innerHTML += html;
+target.innerHTML = html;
 
 
 
