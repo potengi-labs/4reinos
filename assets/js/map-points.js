@@ -1,9 +1,11 @@
 const mapPoints = [
-{
 
+{
 id:"COM_M001",
 
 nome:"Praça da Expressão",
+
+icone:"💬",
 
 x:"22%",
 
@@ -13,13 +15,13 @@ y:"82%",
 acao:()=>{
 
 window.location.href =
-"missoes/com_m001.html";
+"../missoes/com_m001.html";
 
 }
 
-},
+}
 
-
+];
 
 
 
@@ -48,6 +50,8 @@ document.createElement("button");
 
 
 link.className="map-point";
+
+
 
 link.style.left =
 point.x;
