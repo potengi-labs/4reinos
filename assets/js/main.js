@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded",()=>{
+document.addEventListener("DOMContentLoaded",async ()=>{
 
 
 const worldLayer =
@@ -10,27 +10,25 @@ document.getElementById("ui-layer");
 
 
 
-/* =========================== CARREGAMENTO DE COMPONENTES =========================== */
-loadComponent(
+await loadComponent(
 "assets/components/world.html",
 worldLayer
 );
 
-loadComponent(
+
+
+await loadComponent(
 "assets/components/ui.html",
 uiLayer
 );
 
 
 
-/* =========================== CENA INICIAL =========================== */
 loadScene("mundo");
 
-/* =========================== MAP POINTS =========================== */
+
 createMapPoints();
-  
-});
 
 
-  
+
 });
