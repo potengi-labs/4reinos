@@ -210,6 +210,32 @@ overflow:hidden;
  opacity:.8;
 }
 
+.menu-item a{
+    color:#f7f2d8; /* tom claro estilo pergaminho */
+    text-decoration:none;
+    display:block;
+    padding:10px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.menu-item a:hover{
+    color:#ffd54f; /* dourado da Árvore da Vida */
+    text-shadow:
+    0 0 10px rgba(255,213,79,.8);
+    transform:scale(1.05);
+}
+
+a{
+    color:#f7f2d8;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#ffd54f;
+}
+
+
 @keyframes float{
  from{transform:translateY(0)}
  to{transform:translateY(-120px)}
