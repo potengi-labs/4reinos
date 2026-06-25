@@ -10,19 +10,11 @@ document.getElementById("ui-layer");
 
 
 
-/*
-===========================
-CARREGAMENTO DE COMPONENTES
-===========================
-*/
-
-
+/* =========================== CARREGAMENTO DE COMPONENTES =========================== */
 loadComponent(
 "assets/components/world.html",
 worldLayer
 );
-
-
 
 loadComponent(
 "assets/components/ui.html",
@@ -31,23 +23,13 @@ uiLayer
 
 
 
-/*
-===========================
-CENA INICIAL
-===========================
-*/
-
-
+/* =========================== CENA INICIAL =========================== */
 loadScene("mundo");
 
-
-/*
-===========================
-MAP POINTS
-===========================
-*/
+/* =========================== MAP POINTS =========================== */
 createMapPoints();
-
+  
+});
 
 
   
