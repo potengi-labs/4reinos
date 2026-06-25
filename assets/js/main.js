@@ -41,5 +41,14 @@ CENA INICIAL
 loadScene("mundo");
 
 
+/*
+===========================
+MAP POINTS
+===========================
+*/
+createMapPoints();
 
+
+
+  
 });
