@@ -82,6 +82,22 @@ overflow:hidden;
  animation:pulse 4s ease infinite;
 }
 
+.tree-core h3{
+color:#ffd54f;
+font-size:1.4rem;
+text-shadow:
+0 0 8px rgba(255,213,79,.9),
+0 0 20px rgba(255,180,0,.6);
+letter-spacing:2px;
+}
+
+.tree-core p{
+color:#fff3c4;
+font-size:.9rem;
+text-shadow:
+0 0 10px rgba(255,255,255,.5);
+}
+
 @keyframes pulse{
  50%{transform:translate(-50%,-50%) scale(1.08)}
 }
