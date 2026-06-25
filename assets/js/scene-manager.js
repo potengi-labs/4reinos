@@ -4,7 +4,7 @@ const scenes = {
 mundo:{
 
 background:
-"assets/img/mundos/bg_4reinos.png",
+"assets/img/mundos/bg_4reinos0.png",
 
 titulo:
 "Aventura dos 4 Reinos"
