@@ -88,8 +88,8 @@ window.location.href =
 id:"TER_M005",
 nome:"Mirante do Entendimento",
 icone:"🤝",
-x:"20%",
-y:"38%",
+x:"18%",
+y:"35%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
