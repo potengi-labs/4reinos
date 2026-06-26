@@ -29,28 +29,30 @@ function renderizarMissao(missao) {
     return;
   }
 
-  if (missao.background) {
-    world.style.backgroundImage =
-      `url('${missao.background}')`;
-  } else {
-    console.warn("Missão sem background:", missao.id);
-  }
-
-  // remove apenas temas antigos (não destrói outras classes)
-  document.body.classList.forEach(cls => {
-    if (cls.startsWith("theme-")) {
-      document.body.classList.remove(cls);
-    }
-  });
-
-  if (missao.tema) {
-    document.body.classList.add(missao.tema);
-  }
-
   console.log("🎮 Missão carregada:", {
     id: missao.id,
     nome: missao.nome,
     tema: missao.tema,
     background: missao.background
   });
+
+  // 🔥 BACKGROUND DA MISSÃO
+  if (missao.background) {
+    world.style.backgroundImage = `url('${missao.background}')`;
+    world.style.backgroundSize = "cover";
+    world.style.backgroundPosition = "center";
+    world.style.backgroundRepeat = "no-repeat";
+  }
+
+  // 🎨 RESET DE TEMA (seguro)
+  document.body.classList.forEach(cls => {
+    if (cls.startsWith("theme-")) {
+      document.body.classList.remove(cls);
+    }
+  });
+
+  // 🎨 APLICA NOVO TEMA
+  if (missao.tema) {
+    document.body.classList.add(missao.tema);
+  }
 }
