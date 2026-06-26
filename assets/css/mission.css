@@ -1,13 +1,223 @@
-.mission-card{
+/* =========================================================
+   MISSION ENGINE - BASE SYSTEM
+   Suporta múltiplas missões / reinos
+========================================================= */
 
+:root {
+  /* ===== CORES BASE (fallback global) ===== */
+  --mission-primary: #4da3ff;
+  --mission-secondary: #56d66b;
+  --mission-dark: #07111f;
+  --mission-overlay: rgba(0, 0, 0, 0.4);
+
+  /* ===== AMBIENTE ===== */
+  --fog-opacity: 0.35;
+  --particle-opacity: 0.6;
+
+  /* ===== TRANSIÇÕES ===== */
+  --mission-transition: 0.6s ease;
+}
+
+/* =========================================================
+   WORLD / CENÁRIO PRINCIPAL
+========================================================= */
+
+.world {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transition: background var(--mission-transition);
+}
+
+/* Camada de fundo (engine layer) */
+.world-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Overlay geral (profundidade visual) */
+.world::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--mission-overlay);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* =========================================================
+   CAMADAS ATMOSFÉRICAS
+========================================================= */
+
+.fog {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+
+  opacity: var(--fog-opacity);
+
+  background: radial-gradient(
+    circle at center,
+    transparent 30%,
+    rgba(0, 0, 0, 0.6)
+  );
+  animation: fogMove 12s infinite alternate ease-in-out;
+}
+
+@keyframes fogMove {
+  from { transform: translateY(0px); }
+  to { transform: translateY(-20px); }
+}
+
+.particles {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+
+  opacity: var(--particle-opacity);
+}
+
+/* =========================================================
+   UI LAYER (INTERFACE FIXA)
+========================================================= */
+
+.ui-layer {
+  position: relative;
+  z-index: 10;
+}
+
+/* =========================================================
+   POPUP SYSTEM
+========================================================= */
+
+.popup {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+
+  opacity: 1;
+  transition: var(--mission-transition);
+  z-index: 1000;
+}
+
+.popup.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.popup-content {
+  width: min(520px, 90%);
+  background: #0e1a2b;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+
+  padding: 20px;
+  color: white;
+
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* =========================================================
+   ESTADOS DE MISSÃO
+========================================================= */
+
+/* missão ativa */
+.mission-active {
+  filter: none;
+}
+
+/* missão concluída */
+.mission-completed {
+  filter: grayscale(0.4) brightness(1.1);
+}
+
+/* missão bloqueada */
+.mission-locked {
+  filter: grayscale(1) brightness(0.4);
+  pointer-events: none;
+}
+
+.mission-card{
 background:
 rgba(10,20,40,.75);
-
 border:
 1px solid gold;
-
 border-radius:20px;
-
 padding:20px;
+}
 
+/* =========================================================
+   SISTEMA DE TEMAS (REINOS)
+========================================================= */
+
+/* 🌐 Reino da Comunicação */
+.theme-comunicacao {
+  --mission-primary: #4da3ff;
+  --mission-secondary: #00d4ff;
+  --mission-overlay: rgba(0, 10, 30, 0.45);
+}
+
+/* 🌿 Reino Biológico */
+.theme-biologico {
+  --mission-primary: #56d66b;
+  --mission-secondary: #a8ff60;
+  --mission-overlay: rgba(0, 40, 10, 0.4);
+}
+
+/* 🔮 Reino dos Cristais */
+.theme-cristais {
+  --mission-primary: #b27cff;
+  --mission-secondary: #ff6bd6;
+  --mission-overlay: rgba(30, 0, 40, 0.45);
+}
+
+/* ⚙️ Reino Tecnológico (exemplo futuro) */
+.theme-tecnologico {
+  --mission-primary: #ffcf4d;
+  --mission-secondary: #ff8a00;
+  --mission-overlay: rgba(40, 30, 0, 0.45);
+}
+
+/* =========================================================
+   RESPONSIVIDADE
+========================================================= */
+
+@media (max-width: 768px) {
+  .popup-content {
+    width: 92%;
+    padding: 16px;
+  }
+
+  .fog {
+    opacity: 0.25;
+  }
 }
