@@ -65,7 +65,7 @@ id:"TER_M003",
 nome:"Ponte do Equilíbrio",
 icone:"⚖️",
 x:"35%",
-y:"60%",
+y:"40%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
