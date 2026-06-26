@@ -175,6 +175,32 @@ border-radius:20px;
 padding:20px;
 }
 
+.home-button {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+
+  width: 48px;
+  height: 48px;
+
+  opacity: 0.6;
+  z-index: 999;
+
+  transition: 0.3s ease;
+}
+
+.home-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* efeito discreto de interação */
+.home-button:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
 /* =========================================================
    SISTEMA DE TEMAS (REINOS)
 ========================================================= */
