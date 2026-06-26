@@ -89,7 +89,7 @@ id:"TER_M005",
 nome:"Mirante do Entendimento",
 icone:"🤝",
 x:"15%",
-y:"40%",
+y:"45%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
