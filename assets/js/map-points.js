@@ -64,8 +64,8 @@ window.location.href =
 id:"TER_M003",
 nome:"Ponte do Equilíbrio",
 icone:"⚖️",
-x:"40%",
-y:"50%",
+x:"35%",
+y:"60%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
