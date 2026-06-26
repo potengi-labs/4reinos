@@ -2,25 +2,32 @@ async function carregarMissao(id) {
   try {
     const resposta = await fetch(`assets/missoes/data/json/${id}.json`);
 
-    if (!resposta.ok) throw new Error("Missão não encontrada");
+    if (!resposta.ok) {
+      throw new Error("Missão não encontrada: " + id);
+    }
 
     const missao = await resposta.json();
 
     renderizarMissao(missao);
 
   } catch (e) {
-    console.error(e);
+    console.error("Erro ao carregar missão:", e);
   }
 }
 
 function renderizarMissao(missao) {
   const world = document.getElementById("world-layer");
 
-  world.style.backgroundImage =
-    `url('${missao.background}')`;
+  if (world && missao.background) {
+    world.style.backgroundImage =
+      `url('${missao.background}')`;
+  }
 
   document.body.className = "";
-  document.body.classList.add(missao.tema);
 
-  console.log("Missão carregada:", missao.nome);
+  if (missao.tema) {
+    document.body.classList.add(missao.tema);
+  }
+
+  console.log(`🎮 Missão: ${missao.nome}`);
 }
