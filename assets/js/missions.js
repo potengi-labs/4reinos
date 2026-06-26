@@ -1,24 +1,28 @@
-async function carregarMissao(id){
-
-const resposta =
-await fetch(
-`../missoes/data/json/${id}.json`
-);
 
 
-const missao =
-await resposta.json();
+async function carregarMissao(id) {
+  try {
+    const resposta = await fetch(`missoes/data/${id}.json`);
 
+    if (!resposta.ok) throw new Error("Missão não encontrada");
 
-mostrarMissao(missao);
+    const missao = await resposta.json();
 
+    renderizarMissao(missao);
+
+  } catch (e) {
+    console.error(e);
+  }
 }
 
+function renderizarMissao(missao) {
+  const world = document.getElementById("world-layer");
 
-function mostrarMissao(missao){
+  world.style.backgroundImage =
+    `url('${missao.background}')`;
 
-console.log(
-missao.nome
-);
+  document.body.className = "";
+  document.body.classList.add(missao.tema);
 
+  console.log("Missão carregada:", missao.nome);
 }
