@@ -76,8 +76,8 @@ window.location.href =
 id:"TER_M004",
 nome:"Castelo dos Sentimentos",
 icone:"🏰",
-x:"19%",
-y:"20%",
+x:"23%",
+y:"22%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m003.html";
@@ -89,7 +89,7 @@ id:"TER_M004",
 nome:"Ponte do Entendimento",
 icone:"🤝",
 x:"23%",
-y:"60%",
+y:"58%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m003.html";
