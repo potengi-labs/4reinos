@@ -41,7 +41,7 @@ id:"TER_M001",
 nome:"Torre da Antecipação",
 icone:"🔭",
 x:"12%",
-y:"30%",
+y:"28%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
@@ -77,7 +77,7 @@ id:"TER_M004",
 nome:"Castelo dos Sentimentos",
 icone:"🏰",
 x:"20%",
-y:"25%",
+y:"23%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
