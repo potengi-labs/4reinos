@@ -64,8 +64,8 @@ window.location.href =
 id:"TER_M003",
 nome:"Ponte do Equilíbrio",
 icone:"📜",
-x:"23%",
-y:"60%",
+x:"20%",
+y:"65%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m003.html";
@@ -83,15 +83,13 @@ window.location.href =
 "assets/missoes/com_m003.html";
 }
 },
-
-  
   
 {
 id:"TER_M004",
 nome:"Ponte do Entendimento",
 icone:"📜",
-x:"22%",
-y:"80%",
+x:"23%",
+y:"60%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m003.html";
