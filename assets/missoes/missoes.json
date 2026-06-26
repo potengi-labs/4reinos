@@ -1,0 +1,101 @@
+{
+  "missao1": {
+    "id": "missao1",
+    "nome": "Reino da Comunicação - Praça da Expressão",
+    "tema": "theme-comunicacao",
+    "background": "../img/missoes/bg_caminho-praca1.png",
+    "descricao": "Você chega ao ponto inicial do Reino da Comunicação. A praça está viva com sinais e mensagens.",
+    "fog": 0.35,
+    "particles": true
+  },
+
+  "missao2": {
+    "id": "missao2",
+    "nome": "Teatro das Histórias",
+    "tema": "theme-comunicacao",
+    "background": "/assets/img/missoes/bg_caminho-teatro1.png",
+    "descricao": "Uma torre antiga emite sinais que precisam ser decodificados.",
+    "fog": 0.4,
+    "particles": true
+  },
+
+  "missao3": {
+    "id": "missao3",
+    "nome": "Mercado das Mensagens",
+    "tema": "theme-comunicacao",
+    "background": "/assets/img/missoes/bg_mercado.png",
+    "descricao": "Mensagens circulam entre vendedores e viajantes. Nada é o que parece.",
+    "fog": 0.3,
+    "particles": true
+  },
+
+  "missao4": {
+    "id": "missao4",
+    "nome": "Arquivo Perdido",
+    "tema": "theme-comunicacao",
+    "background": "/assets/img/missoes/bg_arquivo.png",
+    "descricao": "Um arquivo esquecido guarda informações críticas do reino.",
+    "fog": 0.45,
+    "particles": false
+  },
+
+  "missao5": {
+    "id": "missao5",
+    "nome": "Eco das Vozes",
+    "tema": "theme-comunicacao",
+    "background": "/assets/img/missoes/bg_ecos.png",
+    "descricao": "As vozes do passado ainda ecoam entre as paredes da cidade.",
+    "fog": 0.5,
+    "particles": true
+  },
+
+  "missao6": {
+    "id": "missao6",
+    "nome": "Núcleo da Informação",
+    "tema": "theme-comunicacao",
+    "background": "/assets/img/missoes/bg_nucleo.png",
+    "descricao": "O centro de controle das comunicações do reino.",
+    "fog": 0.2,
+    "particles": true
+  },
+
+  "missao7": {
+    "id": "missao7",
+    "nome": "Interferência",
+    "tema": "theme-comunicacao",
+    "background": "/assets/img/missoes/bg_interferencia.png",
+    "descricao": "Algo está bloqueando os sinais. Você precisa descobrir a origem.",
+    "fog": 0.6,
+    "particles": false
+  },
+
+  "missao8": {
+    "id": "missao8",
+    "nome": "Rede Invisível",
+    "tema": "theme-comunicacao",
+    "background": "/assets/img/missoes/bg_rede.png",
+    "descricao": "Uma rede oculta conecta todos os pontos do reino.",
+    "fog": 0.35,
+    "particles": true
+  },
+
+  "missao9": {
+    "id": "missao9",
+    "nome": "Guardião da Mensagem",
+    "tema": "theme-comunicacao",
+    "background": "/assets/img/missoes/bg_guardiao.png",
+    "descricao": "O guardião testa sua capacidade de interpretar sinais.",
+    "fog": 0.4,
+    "particles": true
+  },
+
+  "missao10": {
+    "id": "missao10",
+    "nome": "Conexão Final",
+    "tema": "theme-comunicacao",
+    "background": "/assets/img/missoes/bg_final.png",
+    "descricao": "Você ativa a conexão central do Reino da Comunicação.",
+    "fog": 0.7,
+    "particles": true
+  }
+}
