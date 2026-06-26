@@ -9,45 +9,10 @@
 <link rel="stylesheet" href="assets/css/world.css">
 <link rel="stylesheet" href="assets/css/map.css">
 <link rel="stylesheet" href="assets/css/mission.css">
+<link rel="stylesheet" href="assets/css/pop-up.css">
 <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 
-<style>
-    .popup{
-  position:fixed;
-  inset:0;
-  background:rgba(0,0,0,0.7);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  z-index:9999;
-}
-
-.popup-content{
-  background:#0b1625;
-  padding:20px;
-  border-radius:12px;
-  width:300px;
-  color:#fff;
-  position:relative;
-  box-shadow:0 0 20px rgba(0,0,0,0.5);
-}
-
-.close-btn{
-  position:absolute;
-  top:10px;
-  right:10px;
-  background:none;
-  border:none;
-  font-size:18px;
-  color:#fff;
-  cursor:pointer;
-}
-
-.hidden{
-  display:none;
-}
-</style>
     
 <body>
 
@@ -66,10 +31,9 @@
 <script src="assets/js/scene-manager.js"></script>
 <script src="assets/js/map-points.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/pop-up.js"></script>
 <script src="assets/js/missions.js"></script>
 <script src="assets/js/particles.js"></script>
-<!--<script src="assets/js/data/reinos.js"></script>
-<script src="assets/js/player.js"></script>-->
 
 <!-- POPUP BACKDROP -->
 <div id="popup" class="popup hidden">
@@ -82,17 +46,6 @@
   </div>
 </div>
 <!-- POPUP BACKDROP -->
-    <script>
-function openPopup(title, content){
-  document.getElementById("popup-title").innerText = title;
-  document.getElementById("popup-body").innerHTML = content;
-  document.getElementById("popup").classList.remove("hidden");
-}
-
-function closePopup(){
-  document.getElementById("popup").classList.add("hidden");
-}
-</script>
 
     
 </body>
