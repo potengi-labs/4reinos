@@ -148,8 +148,8 @@ window.location.href =
 id:"AMB_M002",
 nome:"Mercado das Escolhas",
 icone:"🔮",
-x:"82%",
-y:"28%",
+x:"81%",
+y:"29%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
