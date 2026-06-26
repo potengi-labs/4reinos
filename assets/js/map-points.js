@@ -125,7 +125,7 @@ id:"BIO_M003",
 nome:"Vale da Recuperação",
 icone:"📜",
 x:"76%",
-y:"66%",
+y:"60%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
@@ -148,7 +148,7 @@ window.location.href =
 id:"AMB_M002",
 nome:"Mercado das Escolhas",
 icone:"🔮",
-x:"80%",
+x:"82%",
 y:"28%",
 acao:()=>{
 window.location.href =
