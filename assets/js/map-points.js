@@ -29,7 +29,7 @@ id:"COM_M003",
 nome:"Teatro das Histórias",
 icone:"📜",
 x:"22%",
-y:"20%",
+y:"80%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m003.html";
