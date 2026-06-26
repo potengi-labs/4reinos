@@ -2,67 +2,38 @@ const mapPoints = [
 
 {
 id:"COM_M001",
-
 nome:"Praça da Expressão",
-
 icone:"💬",
-
 x:"22%",
-
 y:"80%",
-
-
 acao:()=>{
-
 window.location.href =
 "assets/missoes/com_m001.html";
-
 }
-
 },
   
 {
 id:"COM_M002",
-
 nome:"Vila dos Símbolos",
-
 icone:"🔮",
-
 x:"16%",
-
 y:"70%",
-
-
 acao:()=>{
-
 window.location.href =
 "assets/missoes/com_m002.html";
-
 }
-
 },
-
-  
   
 {
 id:"COM_M003",
-
 nome:"Teatro das Histórias",
-
 icone:"📜",
-
-x:"46%",
-
-y:"60%",
-
-
+x:"36%",
+y:"50%",
 acao:()=>{
-
 window.location.href =
 "assets/missoes/com_m003.html";
-
 }
-
 }
 
 ];
