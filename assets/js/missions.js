@@ -2,7 +2,7 @@ async function carregarMissao(id){
 
 const resposta =
 await fetch(
-`data/missoes/${id}.json`
+`../missoes/data/json/${id}.json`
 );
 
 
