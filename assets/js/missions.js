@@ -1,6 +1,6 @@
 async function carregarMissao(id) {
   try {
-    const resposta = await fetch("/assets/missoes/data/missoes.json");
+    const resposta = await fetch("/assets/missoes/missoes.json");
 
     if (!resposta.ok) {
       throw new Error("Erro ao carregar missões");
