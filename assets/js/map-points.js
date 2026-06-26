@@ -98,7 +98,7 @@ window.location.href =
 
   {
 id:"BIO_M001",
-nome:"Fontes da Energia",
+nome:"Fonte da Vida",
 icone:"💬",
 x:"60%",
 y:"80%",
@@ -148,8 +148,8 @@ window.location.href =
 id:"AMB_M002",
 nome:"Mercado das Escolhas",
 icone:"🔮",
-x:"80%",
-y:"20%",
+x:"70%",
+y:"25%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
