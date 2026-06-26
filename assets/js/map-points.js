@@ -4,8 +4,8 @@ const mapPoints = [
 id:"COM_M001",
 nome:"Praça da Expressão",
 icone:"💬",
-x:"22%",
-y:"80%",
+x:"16%",
+y:"70%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
@@ -16,8 +16,8 @@ window.location.href =
 id:"COM_M002",
 nome:"Vila dos Símbolos",
 icone:"🔮",
-x:"16%",
-y:"70%",
+x:"22%",
+y:"80%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m002.html";
