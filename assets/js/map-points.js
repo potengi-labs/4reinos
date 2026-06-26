@@ -19,6 +19,27 @@ window.location.href =
 
 }
 
+},
+  
+{
+id:"COM_M002",
+
+nome:"Vila dos Símbolos",
+
+icone:"💬",
+
+x:"16%",
+
+y:"66%",
+
+
+acao:()=>{
+
+window.location.href =
+"assets/missoes/com_m002.html";
+
+}
+
 }
 
 ];
