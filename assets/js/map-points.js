@@ -17,7 +17,7 @@ id:"COM_M002",
 nome:"Bosque dos Símbolos",
 icone:"🔮",
 x:"16%",
-y:"72%",
+y:"70%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
