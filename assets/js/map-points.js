@@ -148,7 +148,7 @@ window.location.href =
 id:"AMB_M002",
 nome:"Mercado das Escolhas",
 icone:"🔮",
-x:"77%",
+x:"80%",
 y:"28%",
 acao:()=>{
 window.location.href =
