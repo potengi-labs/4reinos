@@ -148,8 +148,8 @@ window.location.href =
 id:"AMB_M002",
 nome:"Mercado das Escolhas",
 icone:"🔮",
-x:"85%",
-y:"16%",
+x:"80%",
+y:"22%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
@@ -161,8 +161,8 @@ window.location.href =
 id:"AMB_M003",
 nome:"Observatório da Previsibilidade",
 icone:"🔮",
-x:"12%",
-y:"90%",
+x:"88%",
+y:"10%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
@@ -173,8 +173,8 @@ window.location.href =
 id:"AMB_M004",
 nome:"Casa Segura",
 icone:"📜",
-x:"80%",
-y:"22%",
+x:"90%",
+y:"24%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
