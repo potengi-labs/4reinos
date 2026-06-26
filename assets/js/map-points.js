@@ -124,8 +124,8 @@ window.location.href =
 id:"BIO_M003",
 nome:"Vale da Recuperação",
 icone:"📜",
-x:"70%",
-y:"60%",
+x:"76%",
+y:"66%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
