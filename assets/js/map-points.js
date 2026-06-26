@@ -39,7 +39,7 @@ window.location.href =
 {
 id:"TER_M001",
 nome:"Torre da Antecipação",
-icone:"🔭",
+icone:"👁️",
 x:"12%",
 y:"28%",
 acao:()=>{
@@ -135,7 +135,7 @@ window.location.href =
   {
 id:"AMB_M001",
 nome:"Trilha das Rotinas",
-icone:"🥾",
+icone:"🧭",
 x:"70%",
 y:"30%",
 acao:()=>{
@@ -147,7 +147,7 @@ window.location.href =
 {
 id:"AMB_M002",
 nome:"Mercado das Escolhas",
-icone:"🧭",
+icone:"🥾",
 x:"81%",
 y:"29%",
 acao:()=>{
@@ -160,7 +160,7 @@ window.location.href =
 {
 id:"AMB_M003",
 nome:"Observatório da Vida",
-icone:"👁️",
+icone:"🔭",
 x:"70%",
 y:"10%",
 acao:()=>{
