@@ -112,8 +112,8 @@ window.location.href =
 id:"BIO_M002",
 nome:"Templo do Paciência",
 icone:"🔮",
-x:"76%",
-y:"75%",
+x:"86%",
+y:"65%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
