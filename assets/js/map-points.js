@@ -113,7 +113,7 @@ id:"BIO_M002",
 nome:"Templo do Paciência",
 icone:"🪷",
 x:"86%",
-y:"65%",
+y:"58%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
@@ -124,7 +124,7 @@ window.location.href =
 id:"BIO_M003",
 nome:"Vale da Recuperação",
 icone:"❤️",
-x:"76%",
+x:"74%",
 y:"60%",
 acao:()=>{
 window.location.href =
