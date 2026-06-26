@@ -39,7 +39,7 @@ window.location.href =
 {
 id:"TER_M001",
 nome:"Torre da Antecipação",
-icone:"📜",
+icone:"🔭",
 x:"16%",
 y:"30%",
 acao:()=>{
@@ -51,8 +51,8 @@ window.location.href =
 {
 id:"TER_M002",
 nome:"Jardim das Memórias",
-icone:"📜",
-x:"20%",
+icone:"🌳",
+x:"40%",
 y:"50%",
 acao:()=>{
 window.location.href =
@@ -63,7 +63,7 @@ window.location.href =
 {
 id:"TER_M003",
 nome:"Ponte do Equilíbrio",
-icone:"📜",
+icone:"⚖️",
 x:"20%",
 y:"65%",
 acao:()=>{
@@ -75,7 +75,7 @@ window.location.href =
 {
 id:"TER_M004",
 nome:"Castelo dos Sentimentos",
-icone:"📜",
+icone:"🏰",
 x:"19%",
 y:"20%",
 acao:()=>{
@@ -87,7 +87,7 @@ window.location.href =
 {
 id:"TER_M004",
 nome:"Ponte do Entendimento",
-icone:"📜",
+icone:"🤝",
 x:"23%",
 y:"60%",
 acao:()=>{
