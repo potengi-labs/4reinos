@@ -149,7 +149,7 @@ id:"AMB_M002",
 nome:"Mercado das Escolhas",
 icone:"🔮",
 x:"80%",
-y:"22%",
+y:"20%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
@@ -161,7 +161,7 @@ window.location.href =
 id:"AMB_M003",
 nome:"Observatório da Vida",
 icone:"🔮",
-x:"75%",
+x:"70%",
 y:"10%",
 acao:()=>{
 window.location.href =
