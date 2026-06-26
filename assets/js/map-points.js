@@ -17,10 +17,10 @@ id:"COM_M002",
 nome:"Bosque dos Símbolos",
 icone:"🔮",
 x:"16%",
-y:"70%",
+y:"72%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m002.html";
+"assets/missoes/com_m001.html";
 }
 },
   
@@ -32,7 +32,7 @@ x:"22%",
 y:"80%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m003.html";
+"assets/missoes/com_m001.html";
 }
 },  
   
@@ -44,7 +44,7 @@ x:"16%",
 y:"30%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m003.html";
+"assets/missoes/com_m001.html";
 }
 },
     
@@ -56,7 +56,7 @@ x:"30%",
 y:"50%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m003.html";
+"assets/missoes/com_m001.html";
 }
 },  
   
@@ -68,7 +68,7 @@ x:"40%",
 y:"50%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m003.html";
+"assets/missoes/com_m001.html";
 }
 },
   
@@ -80,7 +80,7 @@ x:"23%",
 y:"22%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m003.html";
+"assets/missoes/com_m001.html";
 }
 },
   
@@ -92,7 +92,7 @@ x:"23%",
 y:"58%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m003.html";
+"assets/missoes/com_m001.html";
 }
 }
 
