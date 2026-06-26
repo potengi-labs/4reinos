@@ -124,7 +124,7 @@ window.location.href =
 id:"BIO_M003",
 nome:"Vale da Recuperação",
 icone:"📜",
-x:"30%",
+x:"70%",
 y:"60%",
 acao:()=>{
 window.location.href =
