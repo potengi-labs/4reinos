@@ -1,5 +1,3 @@
-
-
 async function carregarMissao(id) {
   try {
     const resposta = await fetch(`assets/missoes/data/json/${id}.json`);
