@@ -22,15 +22,30 @@ await response.text();
 target.innerHTML = html;
 
 
-return true;
-
-
 }catch(error){
 
 console.error(error);
 
-return false;
-
 }
 
 }
+
+
+document.addEventListener(
+"DOMContentLoaded",
+()=>{
+
+const footer =
+document.querySelector(".ui-layer");
+
+
+if(footer){
+
+loadComponent(
+"assets/components/ui.html",
+footer
+);
+
+}
+
+});
