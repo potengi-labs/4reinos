@@ -29,6 +29,68 @@ id:"COM_M003",
 nome:"Teatro das Histórias",
 icone:"📜",
 x:"22%",
+y:"20%",
+acao:()=>{
+window.location.href =
+"assets/missoes/com_m003.html";
+}
+},  
+  
+{
+id:"TER_M001",
+nome:"Torre da Antecipação",
+icone:"📜",
+x:"16%",
+y:"30%",
+acao:()=>{
+window.location.href =
+"assets/missoes/com_m003.html";
+}
+},
+    
+{
+id:"TER_M002",
+nome:"Jardim das Memórias",
+icone:"📜",
+x:"20%",
+y:"50%",
+acao:()=>{
+window.location.href =
+"assets/missoes/com_m003.html";
+}
+},  
+  
+{
+id:"TER_M003",
+nome:"Ponte do Equilíbrio",
+icone:"📜",
+x:"23%",
+y:"60%",
+acao:()=>{
+window.location.href =
+"assets/missoes/com_m003.html";
+}
+},
+  
+{
+id:"TER_M004",
+nome:"Castelo dos Sentimentos",
+icone:"📜",
+x:"19%",
+y:"20%",
+acao:()=>{
+window.location.href =
+"assets/missoes/com_m003.html";
+}
+},
+
+  
+  
+{
+id:"TER_M004",
+nome:"Ponte do Entendimento",
+icone:"📜",
+x:"22%",
 y:"80%",
 acao:()=>{
 window.location.href =
