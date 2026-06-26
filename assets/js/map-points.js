@@ -17,7 +17,7 @@ id:"COM_M002",
 nome:"Bosque dos Símbolos",
 icone:"🔮",
 x:"16%",
-y:"67%",
+y:"64%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
@@ -148,8 +148,8 @@ window.location.href =
 id:"AMB_M002",
 nome:"Mercado das Escolhas",
 icone:"🔮",
-x:"70%",
-y:"25%",
+x:"77%",
+y:"28%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
