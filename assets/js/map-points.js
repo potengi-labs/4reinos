@@ -159,9 +159,9 @@ window.location.href =
   
 {
 id:"AMB_M003",
-nome:"Observatório da Previsibilidade",
+nome:"Observatório da Vida",
 icone:"🔮",
-x:"88%",
+x:"75%",
 y:"10%",
 acao:()=>{
 window.location.href =
