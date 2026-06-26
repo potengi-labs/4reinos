@@ -99,7 +99,7 @@ window.location.href =
   {
 id:"BIO_M001",
 nome:"Fonte da Vida",
-icone:"💬",
+icone:"💧",
 x:"60%",
 y:"80%",
 acao:()=>{
@@ -111,7 +111,7 @@ window.location.href =
 {
 id:"BIO_M002",
 nome:"Templo do Paciência",
-icone:"🔮",
+icone:"🪷",
 x:"86%",
 y:"65%",
 acao:()=>{
@@ -123,7 +123,7 @@ window.location.href =
 {
 id:"BIO_M003",
 nome:"Vale da Recuperação",
-icone:"📜",
+icone:"❤️",
 x:"76%",
 y:"60%",
 acao:()=>{
@@ -135,7 +135,7 @@ window.location.href =
   {
 id:"AMB_M001",
 nome:"Trilha das Rotinas",
-icone:"💬",
+icone:"🥾",
 x:"70%",
 y:"30%",
 acao:()=>{
@@ -147,7 +147,7 @@ window.location.href =
 {
 id:"AMB_M002",
 nome:"Mercado das Escolhas",
-icone:"🔮",
+icone:"🧭",
 x:"81%",
 y:"29%",
 acao:()=>{
@@ -160,7 +160,7 @@ window.location.href =
 {
 id:"AMB_M003",
 nome:"Observatório da Vida",
-icone:"🔮",
+icone:"👁️",
 x:"70%",
 y:"10%",
 acao:()=>{
@@ -172,7 +172,7 @@ window.location.href =
 {
 id:"AMB_M004",
 nome:"Casa Segura",
-icone:"📜",
+icone:"🏡",
 x:"90%",
 y:"24%",
 acao:()=>{
