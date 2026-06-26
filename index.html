@@ -12,6 +12,43 @@
 <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 
+<style>
+    .popup{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.7);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:9999;
+}
+
+.popup-content{
+  background:#0b1625;
+  padding:20px;
+  border-radius:12px;
+  width:300px;
+  color:#fff;
+  position:relative;
+  box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+
+.close-btn{
+  position:absolute;
+  top:10px;
+  right:10px;
+  background:none;
+  border:none;
+  font-size:18px;
+  color:#fff;
+  cursor:pointer;
+}
+
+.hidden{
+  display:none;
+}
+</style>
+    
 <body>
 
 <div class="world">
@@ -34,5 +71,29 @@
 <!--<script src="assets/js/data/reinos.js"></script>
 <script src="assets/js/player.js"></script>-->
 
+<!-- POPUP BACKDROP -->
+<div id="popup" class="popup hidden">
+  <div class="popup-content">
+    <button class="close-btn" onclick="closePopup()">✖</button>
+        <h2 id="popup-title">Título</h2>
+    <div id="popup-body">
+      Conteúdo aqui...
+    </div>
+  </div>
+</div>
+<!-- POPUP BACKDROP -->
+    <script>
+function openPopup(title, content){
+  document.getElementById("popup-title").innerText = title;
+  document.getElementById("popup-body").innerHTML = content;
+  document.getElementById("popup").classList.remove("hidden");
+}
+
+function closePopup(){
+  document.getElementById("popup").classList.add("hidden");
+}
+</script>
+
+    
 </body>
 </html>
