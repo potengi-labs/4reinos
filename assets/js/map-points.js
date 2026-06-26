@@ -26,7 +26,7 @@ id:"COM_M002",
 
 nome:"Vila dos Símbolos",
 
-icone:"💬",
+icone:"🔮",
 
 x:"16%",
 
@@ -37,6 +37,29 @@ acao:()=>{
 
 window.location.href =
 "assets/missoes/com_m002.html";
+
+}
+
+},
+
+  
+  
+{
+id:"COM_M003",
+
+nome:"Teatro das Histórias",
+
+icone:"📜",
+
+x:"46%",
+
+y:"60%",
+
+
+acao:()=>{
+
+window.location.href =
+"assets/missoes/com_m003.html";
 
 }
 
