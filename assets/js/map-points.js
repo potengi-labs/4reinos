@@ -88,8 +88,8 @@ window.location.href =
 id:"TER_M005",
 nome:"Mirante do Entendimento",
 icone:"🤝",
-x:"18%",
-y:"35%",
+x:"15%",
+y:"40%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
@@ -100,8 +100,8 @@ window.location.href =
 id:"BIO_M001",
 nome:"Fontes da Energia",
 icone:"💬",
-x:"66%",
-y:"70%",
+x:"60%",
+y:"80%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
