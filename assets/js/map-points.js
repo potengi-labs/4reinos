@@ -52,7 +52,7 @@ window.location.href =
 id:"TER_M002",
 nome:"Jardim das Memórias",
 icone:"🌳",
-x:"40%",
+x:"30%",
 y:"50%",
 acao:()=>{
 window.location.href =
@@ -64,8 +64,8 @@ window.location.href =
 id:"TER_M003",
 nome:"Ponte do Equilíbrio",
 icone:"⚖️",
-x:"20%",
-y:"65%",
+x:"40%",
+y:"50%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m003.html";
