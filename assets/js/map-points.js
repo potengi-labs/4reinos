@@ -40,7 +40,7 @@ window.location.href =
 id:"TER_M001",
 nome:"Torre da Antecipação",
 icone:"🔭",
-x:"16%",
+x:"14%",
 y:"30%",
 acao:()=>{
 window.location.href =
@@ -52,7 +52,7 @@ window.location.href =
 id:"TER_M002",
 nome:"Jardim das Memórias",
 icone:"🌳",
-x:"30%",
+x:"28%",
 y:"50%",
 acao:()=>{
 window.location.href =
@@ -76,7 +76,7 @@ window.location.href =
 id:"TER_M004",
 nome:"Castelo dos Sentimentos",
 icone:"🏰",
-x:"23%",
+x:"20%",
 y:"22%",
 acao:()=>{
 window.location.href =
