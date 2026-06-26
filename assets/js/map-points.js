@@ -85,7 +85,7 @@ window.location.href =
 },
   
 {
-id:"TER_M004",
+id:"TER_M005",
 nome:"Mirante do Entendimento",
 icone:"🤝",
 x:"20%",
@@ -94,8 +94,93 @@ acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
 }
-}
+},
 
+  {
+id:"BIO_M001",
+nome:"Fontes da Energia",
+icone:"💬",
+x:"66%",
+y:"70%",
+acao:()=>{
+window.location.href =
+"assets/missoes/com_m001.html";
+}
+},
+  
+{
+id:"BIO_M002",
+nome:"Templo do Paciência",
+icone:"🔮",
+x:"16%",
+y:"75%",
+acao:()=>{
+window.location.href =
+"assets/missoes/com_m001.html";
+}
+},
+  
+{
+id:"BIO_M003",
+nome:"Vale da Recuperação",
+icone:"📜",
+x:"30%",
+y:"60%",
+acao:()=>{
+window.location.href =
+"assets/missoes/com_m001.html";
+}
+},  
+
+  {
+id:"AMB_M001",
+nome:"Trilha das Rotinas",
+icone:"💬",
+x:"70%",
+y:"30%",
+acao:()=>{
+window.location.href =
+"assets/missoes/com_m001.html";
+}
+},
+  
+{
+id:"AMB_M002",
+nome:"Mercado das Escolhas",
+icone:"🔮",
+x:"85%",
+y:"16%",
+acao:()=>{
+window.location.href =
+"assets/missoes/com_m001.html";
+}
+},
+  
+  
+{
+id:"AMB_M003",
+nome:"Observatório da Previsibilidade",
+icone:"🔮",
+x:"12%",
+y:"90%",
+acao:()=>{
+window.location.href =
+"assets/missoes/com_m001.html";
+}
+},
+  
+{
+id:"AMB_M004",
+nome:"Casa Segura",
+icone:"📜",
+x:"80%",
+y:"22%",
+acao:()=>{
+window.location.href =
+"assets/missoes/com_m001.html";
+}
+}  
+  
 ];
 
 
