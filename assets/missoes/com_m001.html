@@ -2,21 +2,51 @@
 <html lang="pt-BR">
 
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aventura dos 4 Reinos</title>
 <link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/world.css">
 <link rel="stylesheet" href="assets/css/mission.css">
+<link rel="stylesheet" href="assets/css/pop-up.css">
+<link rel="stylesheet" href="assets/css/footer.css">
 </head>
 
-
+    
 <body>
 
-
-<div class="mission-world">
-<div id="mission-layer"></div>
-<div id="ui-layer"></div>
+<div class="world">
+    <!-- CENÁRIO DO JOGO -->
+    <div id="world-layer"></div>
+    <!-- EFEITOS -->
+    <div class="fog"></div>
+    <div class="particles" id="particles"></div>
 </div>
 
-<script src="assets/js/component-loader.js"></script>
-<script src="assets/js/mission-manager.js"></script>
+<!-- INTERFACE FIXA -->
+<footer class="ui-layer"></footer>
 
+<!-- POPUP BACKDROP -->
+<div id="popup" class="popup hidden">
+  <div class="popup-content">
+    <button class="close-btn" onclick="closePopup()">✖</button>
+        <h2 id="popup-title">Título</h2>
+    <div id="popup-body">
+      Conteúdo aqui...
+    </div>
+  </div>
+</div>
+<!-- POPUP BACKDROP -->
+
+    
+<script src="assets/js/component-loader.js"></script>
+<script src="assets/js/scene-manager.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/pop-up.js"></script>
+<script src="assets/js/missions.js"></script>
+<script src="assets/js/particles.js"></script>
+
+
+    
 </body>
 </html>
