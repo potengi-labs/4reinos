@@ -113,7 +113,7 @@ id:"BIO_M002",
 nome:"Templo do Paciência",
 icone:"🪷",
 x:"86%",
-y:"58%",
+y:"48%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
