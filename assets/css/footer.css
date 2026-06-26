@@ -1,166 +1,59 @@
 .ui-layer{
-
 position:fixed;
-
 bottom:0;
-
 left:0;
-
 width:100%;
-
 z-index:50;
-
-
 }
 
-
-/*
-=========================
-BARRA PRINCIPAL
-=========================
-*/
-
+/* ========================= BARRA PRINCIPAL ========================= */
 
 .footer-bar{
-
-
 height:90px;
-
-
 display:flex;
-
-
 justify-content:center;
-
 align-items:center;
-
-
 gap:35px;
-
-
-
 background:
-
 linear-gradient(
-
 to top,
-
 rgba(5,10,25,.95),
-
 rgba(5,10,25,.35)
-
 );
-
-
-
 backdrop-filter:blur(12px);
-
-
-
 border-top:
-
 1px solid rgba(255,215,0,.25);
-
-
-
 box-shadow:
-
 0 -10px 30px rgba(0,0,0,.5);
-
-
 }
 
-
-
-
-
-/*
-=========================
-ITEM
-=========================
-*/
-
+/* ========================= ITEM ========================= */
 
 .footer-item a{
-
-
 display:flex;
-
-
 flex-direction:column;
-
-
 align-items:center;
-
-
 justify-content:center;
-
-
-
 text-decoration:none;
-
-
-
 color:#f7f2d8;
-
-
-
 font-size:14px;
-
-
-
 transition:.3s;
-
-
 }
-
-
 
 .footer-item a:first-line{
-
-
 font-size:28px;
-
-
 }
-
-
-
-
 
 .footer-item:hover a{
-
-
 color:#ffd54f;
-
-
-
 transform:
-
 translateY(-8px);
-
-
-
 text-shadow:
-
 0 0 15px gold;
-
-
 }
 
-
-
-
 .footer-item span{
-
-
 margin-top:5px;
-
-
 font-size:12px;
-
-
 letter-spacing:1px;
-
-
 }
