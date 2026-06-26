@@ -3,7 +3,7 @@
     "id": "missao1",
     "nome": "Reino da Comunicação - Praça da Expressão",
     "tema": "theme-comunicacao",
-    "background": "assets/img/missoes/bg_caminho-praca1.png",
+    "background": "/assets/img/missoes/bg_caminho-praca1.png",
     "descricao": "Você chega ao ponto inicial do Reino da Comunicação. A praça está viva com sinais e mensagens.",
     "fog": 0.35,
     "particles": true
