@@ -17,7 +17,7 @@ id:"COM_M002",
 nome:"Bosque dos Símbolos",
 icone:"🔮",
 x:"16%",
-y:"70%",
+y:"67%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
@@ -52,8 +52,8 @@ window.location.href =
 id:"TER_M002",
 nome:"Jardim das Memórias",
 icone:"🌳",
-x:"28%",
-y:"50%",
+x:"26%",
+y:"48%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
@@ -112,7 +112,7 @@ window.location.href =
 id:"BIO_M002",
 nome:"Templo do Paciência",
 icone:"🔮",
-x:"16%",
+x:"76%",
 y:"75%",
 acao:()=>{
 window.location.href =
