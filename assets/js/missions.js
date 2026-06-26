@@ -24,16 +24,33 @@ async function carregarMissao(id) {
 function renderizarMissao(missao) {
   const world = document.getElementById("world-layer");
 
-  if (world && missao.background) {
-    world.style.backgroundImage =
-      `url('${missao.background}')`;
+  if (!world) {
+    console.error("Elemento #world-layer não encontrado");
+    return;
   }
 
-  document.body.className = "";
+  if (missao.background) {
+    world.style.backgroundImage =
+      `url('${missao.background}')`;
+  } else {
+    console.warn("Missão sem background:", missao.id);
+  }
+
+  // remove apenas temas antigos (não destrói outras classes)
+  document.body.classList.forEach(cls => {
+    if (cls.startsWith("theme-")) {
+      document.body.classList.remove(cls);
+    }
+  });
 
   if (missao.tema) {
     document.body.classList.add(missao.tema);
   }
 
-  console.log(`🎮 Missão: ${missao.nome}`);
+  console.log("🎮 Missão carregada:", {
+    id: missao.id,
+    nome: missao.nome,
+    tema: missao.tema,
+    background: missao.background
+  });
 }
