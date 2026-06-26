@@ -3,10 +3,16 @@ async function carregarMissao(id) {
     const resposta = await fetch(`missoes.json`);
 
     if (!resposta.ok) {
-      throw new Error("Missão não encontrada: " + id);
+      throw new Error("Erro ao carregar missões");
     }
 
-    const missao = await resposta.json();
+    const data = await resposta.json();
+
+    const missao = data[id];
+
+    if (!missao) {
+      throw new Error("Missão não encontrada: " + id);
+    }
 
     renderizarMissao(missao);
 
