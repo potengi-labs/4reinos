@@ -40,7 +40,7 @@ window.location.href =
 id:"TER_M001",
 nome:"Torre da Antecipação",
 icone:"🔭",
-x:"14%",
+x:"12%",
 y:"30%",
 acao:()=>{
 window.location.href =
@@ -77,7 +77,7 @@ id:"TER_M004",
 nome:"Castelo dos Sentimentos",
 icone:"🏰",
 x:"20%",
-y:"22%",
+y:"25%",
 acao:()=>{
 window.location.href =
 "assets/missoes/com_m001.html";
