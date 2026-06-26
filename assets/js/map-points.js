@@ -4,7 +4,7 @@ const mapPoints = [
 id:"COM_M001",
 nome:"Praça da Expressão",
 icone:"💬",
-x:"16%",
+x:"36%",
 y:"70%",
 acao:()=>{
 window.location.href =
@@ -28,7 +28,7 @@ window.location.href =
 id:"COM_M003",
 nome:"Teatro das Histórias",
 icone:"📜",
-x:"36%",
+x:"16%",
 y:"70%",
 acao:()=>{
 window.location.href =
