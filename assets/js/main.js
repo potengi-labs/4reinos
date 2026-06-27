@@ -1,4 +1,4 @@
-import { iniciarMissoes } from "assets/js/missions.js";
+import { iniciarMissoes } from "./missions.js";
 
 document.addEventListener("DOMContentLoaded",async ()=>{
 
