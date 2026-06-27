@@ -1,3 +1,6 @@
+    // scene-manager.js
+
+
 const scenes = {
 mundo:{
 background:
