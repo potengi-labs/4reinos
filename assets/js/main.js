@@ -9,12 +9,12 @@ const uiLayer =
 document.getElementById("ui-layer");
 
 await loadComponent(
-"assets/components/world.html",
+"../assets/components/world.html",
 worldLayer
 );
 
 await loadComponent(
-"assets/components/ui.html",
+"../assets/components/ui.html",
 uiLayer
 );
 
