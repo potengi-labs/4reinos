@@ -8,26 +8,19 @@ export const missions = {
     reinos: {
 
         comunicacao: {
-
             id: "comunicacao",
-
             nome: "Reino da Comunicação",
-
             tema: "theme-comunicacao",
-
             cristal: "azul",
-
             cor: "#49A9FF",
-
-            musica: "/assets/audio/comunicacao.mp3",
-
+            musica: "../assets/audio/comunicacao.mp3",
             missoes: [
 
                 {
                     id: "missao1",
                     ordem: 1,
                     nome: "Praça da Expressão",
-                    background: "/assets/img/missoes/bg_caminho-praca1.png",
+                    background: "../assets/img/missoes/bg_caminho-praca1.png",
                     descricao: "Você chega ao ponto inicial do Reino da Comunicação. A praça está viva com sinais e mensagens.",
                     fog: 0.35,
                     particles: true
@@ -37,7 +30,7 @@ export const missions = {
                     id: "missao2",
                     ordem: 2,
                     nome: "Teatro das Histórias",
-                    background: "/assets/img/missoes/bg_caminho-teatro1.png",
+                    background: "../assets/img/missoes/bg_caminho-teatro1.png",
                     descricao: "Uma torre antiga emite sinais que precisam ser decodificados.",
                     fog: 0.40,
                     particles: true
