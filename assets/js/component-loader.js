@@ -36,13 +36,13 @@ document.addEventListener(
 ()=>{
 
 const footer =
-document.querySelector(".ui-layer");
+document.querySelector(".footer-layer");
 
 
 if(footer){
 
 loadComponent(
-"assets/components/ui.html",
+"assets/components/footer.html",
 footer
 );
 
