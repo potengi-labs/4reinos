@@ -1,5 +1,3 @@
-import { iniciarMissoes } from "./missions.js";
-
 document.addEventListener("DOMContentLoaded",async ()=>{
 
 const worldLayer =
@@ -23,7 +21,10 @@ loadScene("mundo");
 createMapPoints();
 
   
-// Inicializa o sistema de missões
-iniciarMissoes();
+// Inicializa o sistema de missões  
+  iniciarMissoes();
 
+
+  
 });
+
