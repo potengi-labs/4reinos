@@ -57,7 +57,7 @@ pointer-events:none;
  pointer-events:none;
 }
 
-.ui-layer{
+.footer-layer{
 width:100%;
 flex-shrink:0;
 position:relative;
