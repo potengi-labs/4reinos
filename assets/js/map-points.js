@@ -8,7 +8,7 @@ x:"36%",
 y:"70%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"missoes/com_m001.html";
 }
 },
   
