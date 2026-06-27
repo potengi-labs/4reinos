@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="../assets/css/footer.css">
 </head>
     
-<body>
+<body data-missao="missao1">
 
 <div class="world">
     <a href="../index.html" class="home-button">  <img src="../assets/img/mundos/elementos1.png" alt="Voltar" /></a>
@@ -36,6 +36,12 @@
   </div>
 </div>
 <!-- POPUP BACKDROP -->
+    <script type="module">
+import { carregarMissao } from "../assets/js/missions.js";
+
+carregarMissao("missao1");
+</script>
+
     
 <script src="../assets/js/component-loader.js"></script>
 <script src="../assets/js/scene-manager.js"></script>
