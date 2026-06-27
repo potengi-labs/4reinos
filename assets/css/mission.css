@@ -91,10 +91,10 @@
 }
 
 /* =========================================================
-   UI LAYER (INTERFACE FIXA)
+   FOOTER LAYER (INTERFACE FIXA)
 ========================================================= */
 
-.ui-layer {
+.footer-layer {
   position: relative;
   z-index: 10;
 }
