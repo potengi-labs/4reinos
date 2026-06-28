@@ -15,7 +15,7 @@ window.location.href =
 {
 id:"COM_M002",
 nome:"Bosque dos Símbolos",
-icone:"🔮",
+icone:"🌀",
 x:"16%",
 y:"64%",
 acao:()=>{
@@ -27,7 +27,7 @@ window.location.href =
 {
 id:"COM_M003",
 nome:"Teatro das Histórias",
-icone:"📜",
+icone:"🎭",
 x:"22%",
 y:"80%",
 acao:()=>{
@@ -111,7 +111,7 @@ window.location.href =
 {
 id:"BIO_M002",
 nome:"Templo do Paciência",
-icone:"🪷",
+icone:"⏳",
 x:"85%",
 y:"72%",
 acao:()=>{
@@ -123,7 +123,7 @@ window.location.href =
 {
 id:"BIO_M003",
 nome:"Vale da Recuperação",
-icone:"❤️",
+icone:"🌱",
 x:"74%",
 y:"60%",
 acao:()=>{
