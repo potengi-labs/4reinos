@@ -140,7 +140,7 @@ x:"70%",
 y:"30%",
 acao:()=>{
 window.location.href =
-"#";
+"missions/mission-amb-m001.html";
 }
 },
   
@@ -152,7 +152,7 @@ x:"80%",
 y:"28%",
 acao:()=>{
 window.location.href =
-"#";
+"missions/mission-amb-m002.html";
 }
 },
   
@@ -165,7 +165,7 @@ x:"70%",
 y:"10%",
 acao:()=>{
 window.location.href =
-"#";
+"missions/mission-amb-m004.html";
 }
 },
   
@@ -177,7 +177,7 @@ x:"90%",
 y:"24%",
 acao:()=>{
 window.location.href =
-"#";
+"missions/mission-amb-m003.html";
 }
 }  
   
