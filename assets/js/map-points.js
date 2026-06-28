@@ -20,7 +20,7 @@ x:"16%",
 y:"64%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"missions/mission-com-m003.html";
 }
 },
   
@@ -32,7 +32,7 @@ x:"22%",
 y:"80%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"missions/mission-com-m002.html";
 }
 },  
   
