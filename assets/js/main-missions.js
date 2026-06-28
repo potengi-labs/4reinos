@@ -10,17 +10,17 @@ const missioncomm001Layer =
 document.getElementById("mission-com-m001-layer");
 
 await loadComponent(
-"../components/world.html",
+"../assets/components/world.html",
 worldLayer
 );
 
 await loadComponent(
-"../components/footer.html",
+"../assets/components/footer.html",
 footerLayer
 );
   
 await loadComponent(
-"../../missions/mission-com-m001.html",
+"missions/mission-com-m001.html",
 missioncomm001Layer
 );
 
