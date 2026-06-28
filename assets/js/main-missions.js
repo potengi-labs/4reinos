@@ -20,7 +20,7 @@ footerLayer
 );
   
 await loadComponent(
-"missions/mission-com-m001.html",
+"mission-com-m001.html",
 missioncomm001Layer
 );
 
