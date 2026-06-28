@@ -7,12 +7,12 @@ const missioncomm001Layer =
 document.getElementById("mission-com-m001-layer");
 
 await loadComponent(
-"../assets/components/footer.html",
+"assets/components/footer.html",
 footerLayer
 );
   
 await loadComponent(
-"mission-com-m001.html",
+"missions/mission-com-m001.html",
 missioncomm001Layer
 );
 
