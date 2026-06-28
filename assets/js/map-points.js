@@ -44,7 +44,7 @@ x:"12%",
 y:"28%",
 acao:()=>{
 window.location.href =
-"#";
+"missions/mission-ter-m001.html";
 }
 },
     
@@ -56,7 +56,7 @@ x:"26%",
 y:"48%",
 acao:()=>{
 window.location.href =
-"#";
+"missions/mission-ter-m002.html";
 }
 },  
   
@@ -68,7 +68,7 @@ x:"35%",
 y:"40%",
 acao:()=>{
 window.location.href =
-"#";
+"missions/mission-ter-m003.html";
 }
 },
   
