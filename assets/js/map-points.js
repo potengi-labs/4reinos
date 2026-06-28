@@ -8,7 +8,7 @@ x:"36%",
 y:"70%",
 acao:()=>{
 window.location.href =
-"assets/missions/mission-com-m001.html";
+"missions/mission-com-m001.html";
 }
 },
   
