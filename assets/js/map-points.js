@@ -44,7 +44,7 @@ x:"12%",
 y:"28%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"#";
 }
 },
     
@@ -56,7 +56,7 @@ x:"26%",
 y:"48%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"#";
 }
 },  
   
@@ -68,7 +68,7 @@ x:"35%",
 y:"40%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"#";
 }
 },
   
@@ -80,7 +80,7 @@ x:"20%",
 y:"23%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"#";
 }
 },
   
@@ -92,7 +92,7 @@ x:"15%",
 y:"45%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"#";
 }
 },
 
@@ -104,7 +104,7 @@ x:"64%",
 y:"80%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"#";
 }
 },
   
@@ -116,7 +116,7 @@ x:"85%",
 y:"72%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"#";
 }
 },
   
@@ -128,7 +128,7 @@ x:"74%",
 y:"60%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"#";
 }
 },  
 
@@ -140,7 +140,7 @@ x:"70%",
 y:"30%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"#";
 }
 },
   
@@ -152,7 +152,7 @@ x:"80%",
 y:"28%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"#";
 }
 },
   
@@ -165,7 +165,7 @@ x:"70%",
 y:"10%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"#";
 }
 },
   
@@ -177,7 +177,7 @@ x:"90%",
 y:"24%",
 acao:()=>{
 window.location.href =
-"assets/missoes/com_m001.html";
+"#";
 }
 }  
   
