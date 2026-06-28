@@ -6,7 +6,7 @@ document.getElementById("world-layer");
 const footerLayer =
 document.getElementById("footer-layer");
 
-const mission-com-m001-Layer =
+const missioncomm001Layer =
 document.getElementById("mission-com-m001-layer");
 
 await loadComponent(
@@ -21,7 +21,7 @@ footerLayer
   
 await loadComponent(
 "../assets/missions/mission-com-m001.html",
-footerLayer
+missioncomm001Layer
 );
 
 loadScene("mundo");
