@@ -2,7 +2,7 @@ const mapPoints = [
 
 {
 id:"COM_M001",
-nome:"Praça da Expressão",
+nome:"Praça das Expressões",
 icone:"💬",
 x:"36%",
 y:"70%",
