@@ -8,7 +8,7 @@ x:"36%",
 y:"70%",
 acao:()=>{
 window.location.href =
-"missoes/com_m001.html";
+"assets/missions/mission-com-m001.html";
 }
 },
   
