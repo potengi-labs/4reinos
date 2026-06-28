@@ -104,7 +104,7 @@ x:"64%",
 y:"80%",
 acao:()=>{
 window.location.href =
-"#";
+"missions/mission-bio-m001.html";
 }
 },
   
