@@ -116,7 +116,7 @@ x:"85%",
 y:"72%",
 acao:()=>{
 window.location.href =
-"#";
+"missions/mission-bio-m002.html";
 }
 },
   
@@ -128,7 +128,7 @@ x:"74%",
 y:"60%",
 acao:()=>{
 window.location.href =
-"#";
+"missions/mission-bio-m003.html";
 }
 },  
 
